@@ -16,10 +16,10 @@ void Employee :: putData(){
     Employee emp;
     ofstream fout("employee.bin");
     
-    cout << "Enter your id : " << endl;
-    cin >> id;
     cout << "Enter your name : " << endl;
     cin.getline(name, 30);
+    cout << "Enter your id : " << endl;
+    cin >> id;    
 
     // assign value of data member
     emp.emp_id = id;
