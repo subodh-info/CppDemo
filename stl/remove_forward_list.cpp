@@ -24,5 +24,10 @@ int main(){
     // show the elements
     cout << endl << "update list ====> " ;
     showList(flist);
+    // remove all elements from forward_list
+    flist.clear();
+    // show elements of forward_list
+    cout << endl << "update list ====> " ;
+    showList(flist); // no display any elements because all elements are deleted by clear() method
     return 0;
 }
