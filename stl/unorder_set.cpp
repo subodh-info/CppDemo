@@ -12,6 +12,7 @@ int main(){
     languages.insert("Swift");
     languages.insert("Dart");
     languages.insert("Swift");
+    languages.insert("Java");
     // total number of elements present in unordered_list
     cout << endl << "size of unordered_list : " << languages.size();
     // display all elements from unordered_list
