@@ -19,7 +19,7 @@ int main(){
         cout << endl << element;
     }
     // find "Dart" from the list
-    // find() methods retur the end elements iterator if no specifie key is available in the list. otherwise it returns iterator of that elements.
+    // find() methods return the end elements iterator if no specifie key is available in the list. otherwise it returns iterator of that elements.
     string key = "Dart";
     if(languages.find(key) == languages.end()){
         cout << endl << "Element \"Dart\" is not present in the list";
