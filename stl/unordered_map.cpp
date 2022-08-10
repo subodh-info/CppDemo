@@ -42,7 +42,7 @@ int main(){
         cout << endl << "no, such studen found";
     }
     else {
-        cout << endl << (student.find("r"))->second;
+        cout << endl << student.at("r");
     }
     return EXIT_SUCCESS;
 }
