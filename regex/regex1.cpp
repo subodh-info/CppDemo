@@ -15,5 +15,9 @@ int main() {
         cout << endl << "string \'a\' does not match regular expression '\b\'";
     }
 
+    // here, regex_match() method for matching string in range against regular expression b
+    if(regex_match(a.begin(), a.end(), b)) {
+        cout << endl << "\nstring \'a\' matches with the regular expression b\n in the range from 0 to string end";
+    }
     return EXIT_SUCCESS;
 }
